@@ -1,0 +1,6 @@
+class Test:
+    pass
+obj= Test()
+obj.base=int(input())
+obj.power=int(input())
+print(obj.base**obj.power)
